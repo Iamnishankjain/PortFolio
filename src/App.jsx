@@ -10,7 +10,8 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Home></Home>
+      <div className="container"><Home></Home></div>
+      <div className="container"><Experience></Experience></div>
     </>
   );
 }

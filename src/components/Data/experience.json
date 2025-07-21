@@ -1,41 +1,50 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
-    "endDate": "Present",
-    "location": "CA,United State",
+    "role": "Python Full Stack Developer",
+    "organisation": "",
+    "startDate": "Oct, 2024",
+    "endDate": "Dec, 2024",
+    "location": "Virtual Internship",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
+      "Frontend & Backend Design",
+      ""
     ],
-    "imageSrc": "company/google.png"
+    "imageSrc": "company/aicte24.png",
+    "supportSrc": "company/eduskills.png",
+    "supportby": "Eduskills Academy",
+    "cert": "/assets/certificates/python.pdf"
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
+    "role": "Android Developer",
     "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
+    "startDate": "July, 2024",
+    "endDate": "Sept, 2024",
+    "location": "Virtual Internship",
     "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
+      "",
+      ""
     ],
-    "imageSrc": "company/microsoft.png"
+    "imageSrc": "company/aicte24.png",
+    "supportSrc": "company/g.png",
+    "supportby": "Google",
+    "cert": "/assets/certificates/Android.pdf"
   },
   {
     "id": 3,
-    "role": "Software Development Engineer - Intern",
+    "role": "Cyber Security",
     "organisation": "Netflix",
     "startDate": "Apr, 2021",
     "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
+    "location": "Virtual Internship",
     "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
+      "Basics of Cyber Security Learn",
+      ""
     ],
-    "imageSrc": "company/netflix.png"
+    "imageSrc": "company/aicte25.png",
+    "supportSrc": "company/palalto.png",
+    "supportby": "Palalto",
+    "cert": "/assets/certificates/palalto.pdf"
   }
 ]
