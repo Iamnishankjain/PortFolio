@@ -3,12 +3,12 @@ import experience from './Data/experience.json'
 const Experience = () => {
   return (
     <>
-    <div className="container ex">
-      <h1>Experience</h1>
+    <div className="container ex" id='experience'>
+      <h1 className='heading'>Experience</h1>
       {
         experience.map((data)=>{
           return(
-            <div key={data.id} className='ex-items text-center my-5'>
+            <div key={data.id} className='ex-items text-center my-5' data-aos="zoom-in" data-aos-duration="500">
               <div className="left">
                 <img className="img1" src={`/assets/${data.imageSrc}`} alt="" />
                 <img className='img2' src={`/assets/${data.supportSrc}`} alt="" />

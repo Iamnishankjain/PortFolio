@@ -7,9 +7,9 @@ import { FaLinkedin } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-      <div className="container contact">
-        <h1>Contact Me</h1>
-        <div className="contact-icon">
+      <div className="container contact" id='contact'>
+        <h1 className='heading'>Contact Me</h1>
+        <div className="contact-icon" data-aos="zoom-out" data-aos-duration="1000">
           <a href="https://www.instagram.com/jain._nishank" target='_blank' className="items">
             <FaInstagramSquare className="icons" />
           </a>
