@@ -8,7 +8,6 @@ const Experience = () => {
       {
         experience.map((data)=>{
           return(
-            <>
             <div key={data.id} className='ex-items text-center my-5'>
               <div className="left">
                 <img className="img1" src={`/assets/${data.imageSrc}`} alt="" />
@@ -20,10 +19,9 @@ const Experience = () => {
                 <h4 style={{color: 'yellow'}}>Supported By: {data.supportby}</h4>
                 <h5 style={{color: 'yellow'}}>{data.experiences[0]}</h5>
                 <h5 style={{color: 'yellow'}}>{data.experiences[1]}</h5>
-                <a href={data.cert} download="cert.pdf" className="btn btn-outline-warning">Download Certificate</a>
+                <a href={data.cert} target="_blank" rel="noopener noreferrer" className="btn btn-outline-warning">View Certificate</a>
                 </div>
             </div>
-            </>
           )
         })
       }

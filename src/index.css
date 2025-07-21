@@ -116,3 +116,79 @@ a {
 .ex .ex-items .right{
   width: 70%;
 }
+
+/* ----------------------------------Skills Section---------------------------------------------- */
+
+.skills {
+  width: 900px;
+}
+
+.skills .items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.skills .items .item{
+  width: calc(33.3%);
+  background-color: black;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+}
+.skills .items .item img{
+  width: 80px;
+}
+
+
+
+
+/* -------------------------------Projects------------------------------------------- */
+
+
+.project-imgtag{
+  height: 200px;
+  width: 250px;
+  border: 2px solid yellow;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+.project-card{
+  border: 1px solid yellow;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+/* -----------------Contact Section ---------------------- */
+
+
+.contact-icon{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icon .items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid yellow;
+}
+.contact-icon .items:hover{
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+}
+.contact-icon .items .icons{
+  height: 50%;
+  width: 50%;
+}
