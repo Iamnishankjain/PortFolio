@@ -19,7 +19,7 @@ const Experience = () => {
                 <h4 style={{color: 'yellow'}}>Supported By: {data.supportby}</h4>
                 <h5 style={{color: 'yellow'}}>{data.experiences[0]}</h5>
                 <h5 style={{color: 'yellow'}}>{data.experiences[1]}</h5>
-                <a href={data.cert} target="_blank" className="btn btn-outline-warning">View Certificate</a>
+                <div className='ex-btn'><a href={data.cert} target="_blank" className="btn btn-outline-warning">View Certificate</a></div>
                 </div>
             </div>
           )
