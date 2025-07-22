@@ -1,20 +1,27 @@
 [
   {
     "key": 1,
+    "title": "Hotel Management System",
+    "imageSrc": "hotel.png",
+    "description": "This project is based on Hotel Room Booking provided by us.In which we provide tech service. In which use PHP and HTML,CSS ,JS",
+    "go": "https://projects.evasoftaala.com/hotel/"
+  },
+  {
+    "key": 2,
     "title": "A service Website",
     "imageSrc": "1.png",
     "description": "This project is based on tech services provided by us.In which we provide tech service. In which use PHP and HTML,CSS ,JS",
     "go": "https://www.evasoftaala.com/"
   },
   {
-    "key": 2,
+    "key": 3,
     "title": "Emotion Based music play",
     "imageSrc": "2.jpeg",
     "description": "This project detect the emotion and play the music based on emotion. In which the python is used this is backend project",
     "go": "https://github.com/Iamnishankjain/Blood-Bank-Management-System"
   },
   {
-    "key": 3,
+    "key": 4,
     "title": "Expense Tracker",
     "imageSrc": "3.png",
     "description": "This is the regular expenses tracker app maked during the GeeksForGeeks Hackathon using PHP",
