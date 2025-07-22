@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Navbar.module.css";
 const Navbar = () => {
   return (
-    <div className={style.nav_bar} data-aos="fade-down" data-aos-duration="1000">
+    <div className={`${style.nav_bar} container`} data-aos="fade-down" data-aos-duration="1000">
       <div className={style.left}>Portfolio</div>
       <div className={`${style.right} ${style.div_items}`}>
         <a href="#home" className={style.nav_items}>Home</a>

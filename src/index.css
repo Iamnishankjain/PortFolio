@@ -29,24 +29,28 @@ a {
 }
 .home .left{
   text-align: center;
-  padding: 30px;
-  width: 620px;
-  border-radius: 20px;
+  padding: 3%;
+  width: 50%;
+  border-radius: 10px;
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
   background-color: var(--bg-color);
+  margin-left: 10%;
 }
 .home .right .img{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 150px;
+  margin-left: 30%;
 
+}
+.home .right{
+  width: 50%;
 }
 
 .home .right .img img{
-  height: 250px;
-  width: 250px;
+  height: 60%;
+  width: 65%;
   border-radius: 50%;
   border:5px solid yellow;  
   animation-name: hero;
@@ -134,16 +138,19 @@ a {
 .skills .items .item{
   width: calc(33.3%);
   background-color: black;
-  margin: 20px;
+  margin: 2%;
   text-align: center;
-  padding: 20px;
+  padding: 2%;
   border-radius: 10px;
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
 }
 .skills .items .item img{
-  width: 80px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
+}
+.skill-name{
+  font-size: 1.0rem;
 }
 
 
