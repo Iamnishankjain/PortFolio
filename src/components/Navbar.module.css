@@ -5,9 +5,16 @@
   font-size: 1.3em;
   font-weight: bold;
   text-transform: capitalize;
-  height: 50px;
+  height: 60px;
   padding: 10px 20px;
   margin-top: 5px;
+  flex-wrap: wrap;
+}
+
+.left {
+  margin-left: 10%;
+  margin-top: -10px;
+  flex: 1;
 }
 
 .div_items {
@@ -29,10 +36,46 @@
   border-bottom: 3px solid yellow;
 }
 
-.left{
-  margin-left: 10%;
-  margin-top: -10px;
-}
-.right{
+.right {
   margin-right: 5%;
+}
+
+/* -------------------- */
+/* 📱 Responsive Layout */
+/* -------------------- */
+
+@media (max-width: 768px) {
+  .nav_bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    height: auto;
+  }
+
+  .left {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .div_items {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav_items {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .nav_bar .nav_items:hover {
+    border-bottom: 1px solid yellow;
+  }
+
+  .right {
+    margin: 0;
+  }
 }
