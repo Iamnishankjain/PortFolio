@@ -1,27 +1,34 @@
 [
   {
     "key": 1,
+    "title": "Integrated Development Environment - IDE",
+    "imageSrc": "IDE.png",
+    "description": "A browser-based code playground that supports multiple programming languages, enabling users to write, run, and debug code in real-time. It features a modern editor with syntax highlighting (Monaco Editor), secure remote code execution, and a built-in file management system where users can create, rename, delete, and organize their code files and folders.",
+    "go": "https://code-with-nj-integrated-development.vercel.app/"
+  },
+  {
+    "key": 2,
     "title": "Hotel Management System",
     "imageSrc": "hotel.png",
     "description": "This project is based on Hotel Room Booking provided by us.In which we provide tech service. In which use PHP and HTML,CSS ,JS",
     "go": "https://projects.evasoftaala.com/hotel/"
   },
   {
-    "key": 2,
+    "key": 3,
     "title": "A service Website",
     "imageSrc": "1.png",
     "description": "This project is based on tech services provided by us.In which we provide tech service. In which use PHP and HTML,CSS ,JS",
     "go": "https://www.evasoftaala.com/"
   },
   {
-    "key": 3,
+    "key": 4,
     "title": "Emotion Based music play",
     "imageSrc": "2.jpeg",
     "description": "This project detect the emotion and play the music based on emotion. In which the python is used this is backend project",
     "go": "https://github.com/Iamnishankjain/Emotion-based-music-play-system"
   },
   {
-    "key": 4,
+    "key": 5,
     "title": "Expense Tracker",
     "imageSrc": "3.png",
     "description": "This is the regular expenses tracker app maked during the GeeksForGeeks Hackathon using PHP",
