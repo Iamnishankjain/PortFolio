@@ -1,5 +1,21 @@
 [
   {
+    "id": 0,
+    "role": "Data Science and Machine Learning",
+    "organisation": "",
+    "startDate": "Oct, 2024",
+    "endDate": "Dec, 2024",
+    "location": "6 weeks Course Work under Summer Analytics 2025",
+    "experiences": [
+      "",
+      ""
+    ],
+    "imageSrc": "company/iit.png",
+    "supportSrc": "company/iit2.png",
+    "supportby": "Consulting & Analytics Club,IIT Guwahati",
+    "cert": "/assets/certificates/iit.pdf"
+  },
+  {
     "id": 1,
     "role": "Python Full Stack Developer",
     "organisation": "",
