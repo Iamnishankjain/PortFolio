@@ -10,28 +10,28 @@
     "key": 2,
     "title": "Hotel Management System",
     "imageSrc": "hotel.png",
-    "description": "This project is based on Hotel Room Booking provided by us.In which we provide tech service. In which use PHP and HTML,CSS ,JS",
+    "description": "A web-based hotel room booking system designed to streamline the reservation process and manage room availability efficiently. The system allows users to view available rooms, make bookings, and receive confirmations. Developed using PHP for backend logic and HTML, CSS, and JavaScript for a responsive and user-friendly interface. The platform also integrates essential tech services to enhance the overall guest experience.",
     "go": "https://projects.evasoftaala.com/hotel/"
   },
   {
     "key": 3,
     "title": "A service Website",
     "imageSrc": "1.png",
-    "description": "This project is based on tech services provided by us.In which we provide tech service. In which use PHP and HTML,CSS ,JS",
+    "description": "A responsive service-based website showcasing and managing various tech services offered to clients. Developed with PHP for dynamic content and backend logic, and HTML, CSS, and JavaScript for a clean, interactive front-end. The site allows users to explore services, submit inquiries, and connect with the support team—built to improve client engagement and service delivery.",
     "go": "https://www.evasoftaala.com/"
   },
   {
     "key": 4,
     "title": "Emotion Based music play",
     "imageSrc": "2.jpeg",
-    "description": "This project detect the emotion and play the music based on emotion. In which the python is used this is backend project",
+    "description": "A backend system that detects human emotions using facial expressions or audio cues and plays music that matches the detected mood. Developed using Python with machine learning and emotion recognition techniques, the system aims to personalize user experience by recommending or triggering music based on real-time emotional analysis.",
     "go": "https://github.com/Iamnishankjain/Emotion-based-music-play-system"
   },
   {
     "key": 5,
     "title": "Expense Tracker",
     "imageSrc": "3.png",
-    "description": "This is the regular expenses tracker app maked during the GeeksForGeeks Hackathon using PHP",
+    "description": "A simple and efficient web application for tracking daily expenses, built during the GeeksForGeeks Hackathon. The system allows users to record, categorize, and view their expenses over time. Developed using PHP for backend logic with a clean and functional front-end, the app helps users manage their finances and stay within budget.",
     "go": "https://github.com/Iamnishankjain/ExpenseTracker"
   }
 ]
