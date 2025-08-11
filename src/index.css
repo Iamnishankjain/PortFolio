@@ -159,62 +159,47 @@ a {
 }
 
 /* ---------------- Projects Section ---------------- */
-.project {
-  width: 95%;
-  margin: auto;
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  margin-top: 40px;
-}
-
 .project-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  border: 1px solid yellow;
-  border-radius: 10px;
-  box-shadow: var(--box-shadow);
-  background-color: var(--bg-color);
-  padding: 15px;
-  height: 100%;
-  transition: transform 0.3s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
+  border-radius: 10px !important;
+  border: 1px solid yellow !important;
+  box-shadow: var(--box-shadow) !important;
+  background-color: var(--bg-color) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important; /* full height for equal card height */
 }
 
 .project-imgtag {
-  width: 100%;
-  height: auto;
-  border: 2px solid yellow;
-  border-radius: 10px;
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 10px !important;
+  border: 2px solid yellow !important;
   object-fit: cover;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow) !important;
 }
 
 .card-body {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: flex !important;
+  flex-direction: column !important;
+  flex-grow: 1 !important;
 }
 
 .card-text {
   overflow-wrap: break-word;
   word-break: break-word;
   line-height: 1.4;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
-/* Responsive grid override (Bootstrap padding adjustments) */
-.project .col-sm-6 {
-  padding: 0;
+/* Ensure the "Go" button stays at bottom of card */
+.card-body .btn {
+  margin-top: auto !important;
+}
+
+/* Fix row spacing in Bootstrap */
+.row > div.mx-3 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 /* ---------------- Contact Section ---------------- */
