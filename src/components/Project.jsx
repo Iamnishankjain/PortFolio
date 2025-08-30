@@ -8,7 +8,7 @@ function Project() {
         <h1 className='heading'>Projects</h1>
         <div className="row d-flex justify-content-center align-items-center" id='project'>
           {
-            projects.map((project) => (
+            [...projects].reverse().map((project) => (
               <div
                 key={project.key}
                 className='my-3 col-sm-6 col-md-4 col-lg-3 mx-3'

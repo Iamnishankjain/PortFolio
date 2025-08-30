@@ -1,44 +1,52 @@
 [
   {
     "key": 1,
-    "title": "ChatBridge - A real time chat and video call application",
-    "imageSrc": "chatBridge.png",
-    "description": "A real-time chat and video call application built for smooth one-on-one communication. It enables users to instantly connect through messaging or high-quality video calls in a secure way. Designed with a responsive interface, it ensures reliable performance and provides a seamless user experience.",
-    "go": "https://real-time-chat-application-s7hq.onrender.com/"
+    "title": "Expense Tracker",
+    "imageSrc": "3.png",
+    "description": "A simple and efficient web application for tracking daily expenses, built during the GeeksForGeeks Hackathon. It allows users to record, categorize, and view their expenses over time. Developed with PHP and a clean front-end, the app helps users manage finances effectively and stay within budget.",
+    "go": "https://github.com/Iamnishankjain/ExpenseTracker"
   },
   {
     "key": 2,
-    "title": "Integrated Development Environment - IDE",
-    "imageSrc": "IDE.png",
-    "description": "A browser-based code playground that supports multiple programming languages, enabling users to write, run, and debug code in real-time. It provides a modern editor with syntax highlighting and secure remote execution. The system also includes built-in file management to efficiently create, rename, delete, and organize code files and folders.",
-    "go": "https://code-with-nj-integrated-development.vercel.app/"
-  },
-  {
-    "key": 3,
-    "title": "Hotel Management System",
-    "imageSrc": "hotel.png",
-    "description": "A web-based hotel room booking system designed to streamline the reservation process and manage room availability efficiently. It allows users to browse available rooms, make bookings, and receive instant confirmations. Developed with PHP, HTML, CSS, and JavaScript, it ensures a responsive interface and enhances the overall guest experience.",
-    "go": "https://projects.evasoftaala.com/hotel/"
-  },
-  {
-    "key": 4,
-    "title": "A service Website",
-    "imageSrc": "1.png",
-    "description": "A responsive service-based website built to showcase and manage a variety of technology services for clients. Developed with PHP, HTML, CSS, and JavaScript, it allows users to explore services, submit inquiries, and connect with support. The platform is designed to improve client engagement and streamline service delivery.",
-    "go": "https://www.evasoftaala.in/"
-  },
-  {
-    "key": 5,
     "title": "Emotion Based music play",
     "imageSrc": "2.jpeg",
     "description": "A backend system that detects human emotions using facial expressions or audio cues and plays music that matches the detected mood. Developed using Python with machine learning and emotion recognition techniques, the system aims to personalize user experience by recommending or triggering music based on real-time emotional analysis.",
     "go": "https://github.com/Iamnishankjain/Emotion-based-music-play-system"
   },
   {
+    "key": 3,
+    "title": "A service Website",
+    "imageSrc": "1.png",
+    "description": "A responsive service-based website built to showcase and manage a variety of technology services for clients. Developed with PHP, HTML, CSS, and JavaScript, it allows users to explore services, submit inquiries, and connect with support. The platform is designed to improve client engagement and streamline service delivery.",
+    "go": "https://www.evasoftaala.in/"
+  },
+  {
+    "key": 4,
+    "title": "Hotel Management System",
+    "imageSrc": "hotel.png",
+    "description": "A web-based hotel room booking system designed to streamline the reservation process and manage room availability efficiently. It allows users to browse available rooms, make bookings, and receive instant confirmations. Developed with PHP, HTML, CSS, and JavaScript, it ensures a responsive interface and enhances the overall guest experience.",
+    "go": "https://projects.evasoftaala.com/hotel/"
+  },
+  {
+    "key": 5,
+    "title": "Integrated Development Environment - IDE",
+    "imageSrc": "IDE.png",
+    "description": "A browser-based code playground that supports multiple programming languages, enabling users to write, run, and debug code in real-time. It provides a modern editor with syntax highlighting and secure remote execution. The system also includes built-in file management to efficiently create, rename, delete, and organize code files and folders.",
+    "go": "https://code-with-nj-integrated-development.vercel.app/"
+  },
+  {
     "key": 6,
-    "title": "Expense Tracker",
-    "imageSrc": "3.png",
-    "description": "A simple and efficient web application for tracking daily expenses, built during the GeeksForGeeks Hackathon. It allows users to record, categorize, and view their expenses over time. Developed with PHP and a clean front-end, the app helps users manage finances effectively and stay within budget.",
-    "go": "https://github.com/Iamnishankjain/ExpenseTracker"
+    "title": "ChatBridge - A real time chat and video call application",
+    "imageSrc": "chatBridge.png",
+    "description": "A real-time chat and video call application built for smooth one-on-one communication. It enables users to instantly connect through messaging or high-quality video calls in a secure way. Designed with a responsive interface, it ensures reliable performance and provides a seamless user experience.",
+    "go": "https://real-time-chat-application-s7hq.onrender.com/"
+  }
+  ,
+  {
+    "key": 7,
+    "title": "NishAIverse - A AI SaaS Plateform",
+    "imageSrc": "nishaiverse.png",
+    "description": "NishAIverse is an AI-powered SaaS platform developed with the MERN stack that combines content generation and smart image editing in one place. It allows users to generate articles, blog titles, and AI images, remove backgrounds or unwanted objects from photos, and receive AI-driven resume reviews. With a modern and intuitive interface, NishAIverse streamlines productivity for creators, professionals, and job seekers.",
+    "go": "https://nish-ai-verse.vercel.app/"
   }
 ]
